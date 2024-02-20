@@ -745,6 +745,7 @@
 			<xsd:enumeration value="HR" />
 			<xsd:enumeration value="HT" />
 			<xsd:enumeration value="HU" />
+			<xsd:enumeration value="IC" />
 			<xsd:enumeration value="ID" />
 			<xsd:enumeration value="IE" />
 			<xsd:enumeration value="IL" />
@@ -889,6 +890,7 @@
 			<xsd:enumeration value="VU" />
 			<xsd:enumeration value="WF" />
 			<xsd:enumeration value="WS" />
+			<xsd:enumeration value="XK" />
 			<xsd:enumeration value="YE" />
 			<xsd:enumeration value="YT" />
 			<xsd:enumeration value="ZA" />
