@@ -173,7 +173,7 @@ class XafAuditfileExport(models.Model):
             xml = xml.translate(UNICODE_SANITIZE_TRANSLATION)
 
         filename = self.name + ".xaf"
-        filename = filename.replace(os.sep, " ").replace(" ", "_").replace("/","_")
+        filename = filename.replace(os.sep, " ").replace(" ", "_").replace("/", "_")
         tmpdir = mkdtemp()
         auditfile = os.path.join(tmpdir, filename)
         archivedir = mkdtemp()
